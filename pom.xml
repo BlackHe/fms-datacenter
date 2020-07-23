@@ -9,9 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example.datacenter</groupId>
-    <artifactId>datacenter</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>datacenter</name>
+    <artifactId>fms-datacenter</artifactId>
+    <name>fms-datacenter</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

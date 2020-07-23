@@ -30,6 +30,8 @@ public class MockDataGenerater {
                 return rechargeUnexpectedList();
             case "Currency":
                 return currencyList();
+            case "WalletBalance":
+                return balanceList();
             default:
                 return null;
         }
@@ -505,6 +507,45 @@ public class MockDataGenerater {
         currencyList.add(new Currency("VEN", "VEN"));
         currencyList.add(new Currency("XTZ", "XTZ"));
         return currencyList;
+    }
+
+    public static List<WalletBalance> balanceList() {
+        List<WalletBalance> balanceList = new ArrayList<>();
+        balanceList.add(new WalletBalance("BTC", "132","2020-07-22"));
+        balanceList.add(new WalletBalance("BCH", "123","2020-07-22"));
+        balanceList.add(new WalletBalance("BSV", "44","2020-07-22"));
+        balanceList.add(new WalletBalance("ETH", "123","2020-07-22"));
+        balanceList.add(new WalletBalance("Airbnb", "31","2020-07-22"));
+        balanceList.add(new WalletBalance("LTC", "54","2020-07-22"));
+        balanceList.add(new WalletBalance("DOGE", "3.434","2020-07-22"));
+        balanceList.add(new WalletBalance("DASH", "45.3232","2020-07-22"));
+        balanceList.add(new WalletBalance("XRP", "43243","2020-07-22"));
+        balanceList.add(new WalletBalance("XLM", "567","2020-07-22"));
+        balanceList.add(new WalletBalance("XMR", "6575","2020-07-22"));
+        balanceList.add(new WalletBalance("ADA", "456","2020-07-22"));
+        balanceList.add(new WalletBalance("ZCASH", "456","2020-07-22"));
+        balanceList.add(new WalletBalance("mixin", "456","2020-07-22"));
+        balanceList.add(new WalletBalance("groestlcoin", "567","2020-07-22"));
+        balanceList.add(new WalletBalance("USDC", "567","2020-07-22"));
+        balanceList.add(new WalletBalance("USDT(ERC20)", "567","2020-07-22"));
+        balanceList.add(new WalletBalance("ZRX", "756","2020-07-22"));
+        balanceList.add(new WalletBalance("GNT", "576","2020-07-22"));
+        balanceList.add(new WalletBalance("AYB", "567","2020-07-22"));
+        balanceList.add(new WalletBalance("XXB", "5765","2020-07-22"));
+        balanceList.add(new WalletBalance("HBB", "34","2020-07-22"));
+        balanceList.add(new WalletBalance("QTUM", "5675","2020-07-22"));
+        balanceList.add(new WalletBalance("ATOM", "5675","2020-07-22"));
+        balanceList.add(new WalletBalance("STX", "8","2020-07-22"));
+        balanceList.add(new WalletBalance("USDT", "23","2020-07-22"));
+        balanceList.add(new WalletBalance("LX", "5","2020-07-22"));
+        balanceList.add(new WalletBalance("YLL", "6","2020-07-22"));
+        balanceList.add(new WalletBalance("CYB", "4","2020-07-22"));
+        balanceList.add(new WalletBalance("VET", "3456","2020-07-22"));
+        balanceList.add(new WalletBalance("EOS", "4","2020-07-22"));
+        balanceList.add(new WalletBalance("VEN", "4","2020-07-22"));
+        balanceList.add(new WalletBalance("XTZ", "43563","2020-07-22"));
+        balanceList.add(new WalletBalance("USDT(Omni)", "23","2020-07-22"));
+        return balanceList;
     }
 
 }
