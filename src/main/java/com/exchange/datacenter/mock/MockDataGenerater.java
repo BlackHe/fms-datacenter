@@ -506,6 +506,7 @@ public class MockDataGenerater {
         currencyList.add(new Currency("EOS", "EOS"));
         currencyList.add(new Currency("VEN", "VEN"));
         currencyList.add(new Currency("XTZ", "XTZ"));
+        currencyList.add(new Currency("USDT(Omni)", "USDT(Omni)"));
         return currencyList;
     }
 
