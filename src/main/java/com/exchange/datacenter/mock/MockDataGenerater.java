@@ -47,9 +47,7 @@ public class MockDataGenerater {
         asserts.add(new Assert("BTC", "0000000022", "2.231232", "22222@qq.com"));
         asserts.add(new Assert("ETH", "0000000022", "9283.99999", "233333@qq.com"));
         asserts.add(new Assert("USDT", "0000000023", "100000.93829", "22222@163.com"));
-        asserts.add(new Assert("USDT(ERC20)", "0000000023", "100000.93829", "22222@163.com"));
         asserts.add(new Assert("XTZ", "0000000023", "100000.93829", "22222@163.com"));
-        asserts.add(new Assert("USDT(Omni)", "0000000023", "100000.93829", "22222@163.com"));
         asserts.add(new Assert("BTC", "0000000023", "100000.93829", "222322@163.com"));
         asserts.add(new Assert("BCH", "0000000023", "100000.93829", "222422@163.com"));
         asserts.add(new Assert("BSV", "0000000023", "100000.93829", "222522@163.com"));
@@ -66,7 +64,6 @@ public class MockDataGenerater {
         asserts.add(new Assert("mixin", "0000000023", "100000.93829", "2222672@163.com"));
         asserts.add(new Assert("groestlcoin", "0000000023", "100000.93829", "2227622@163.com"));
         asserts.add(new Assert("USDC", "0000000023", "100000.93829", "2228722@163.com"));
-        asserts.add(new Assert("USDT(ERC20)", "0000000023", "100000.93829", "226222@163.com"));
         asserts.add(new Assert("ZRX", "0000000023", "100000.93829", "2267222@163.com"));
         asserts.add(new Assert("GNT", "0000000023", "100000.93829", "2672222@163.com"));
         asserts.add(new Assert("AYB", "0000000023", "100000.93829", "27782222@163.com"));
@@ -83,7 +80,6 @@ public class MockDataGenerater {
         asserts.add(new Assert("EOS", "00006000023", "100000.93829", "22456222@163.com"));
         asserts.add(new Assert("VEN", "0000000023", "100000.93829", "2225622@163.com"));
         asserts.add(new Assert("XTZ", "0000000023", "100000.93829", "2225622@163.com"));
-        asserts.add(new Assert("USDT(Omni)", "0000000023", "100000.93829", "2265222@163.com"));
         return asserts;
     }
 
@@ -545,7 +541,6 @@ public class MockDataGenerater {
         balanceList.add(new WalletBalance("EOS", "4","2020-07-22"));
         balanceList.add(new WalletBalance("VEN", "4","2020-07-22"));
         balanceList.add(new WalletBalance("XTZ", "43563","2020-07-22"));
-        balanceList.add(new WalletBalance("USDT(Omni)", "23","2020-07-22"));
         return balanceList;
     }
 
