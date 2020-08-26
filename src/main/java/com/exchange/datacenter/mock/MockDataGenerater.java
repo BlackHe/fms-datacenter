@@ -534,6 +534,7 @@ public class MockDataGenerater {
         balanceList.add(new WalletBalance("ATOM", "5675","2020-07-22"));
         balanceList.add(new WalletBalance("STX", "8","2020-07-22"));
         balanceList.add(new WalletBalance("USDT", "23","2020-07-22"));
+        balanceList.add(new WalletBalance("USDT", "23","2020-07-22"));
         balanceList.add(new WalletBalance("LX", "5","2020-07-22"));
         balanceList.add(new WalletBalance("YLL", "6","2020-07-22"));
         balanceList.add(new WalletBalance("CYB", "4","2020-07-22"));
